@@ -1,7 +1,3 @@
-Sure! Let’s go step by step to understand **Shell Scripting** in simple terms, and I’ll include an interactive question-and-answer (Q&A) style to make it more engaging.
-
----
-
 ## **1. What is Shell Scripting?**
 ### **Explanation:**
 A **shell script** is a simple program written in a shell (command-line interpreter). It consists of a sequence of commands that are executed in order, just like a set of instructions in a recipe.  
