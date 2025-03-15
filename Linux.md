@@ -63,6 +63,69 @@ Linux follows a hierarchical **directory structure**, starting from the root (`/
 | `/usr` | User utilities and applications |
 | `/var` | Variable files (logs, databases, etc.) |
 
+### 📁 **Top-Level Directories in Linux**
+1. **`/` (Root)**
+   - The starting point of everything in Linux.
+   - All other directories are inside this.
+
+2. **`/bin` (Binary)**
+   - Contains essential command-line programs like `ls`, `cp`, `mv`, `cat`, etc.
+   - These commands are available to all users.
+
+3. **`/sbin` (System Binary)**
+   - Similar to `/bin`, but contains system-related commands like `shutdown`, `mount`, `fsck`.
+   - Used mostly by system administrators.
+
+4. **`/home` (User Home Directory)**
+   - Each user gets a folder here (`/home/ankita` for example).
+   - Stores personal files, documents, and configurations.
+
+5. **`/root` (Root User's Home)**
+   - Home directory for the `root` (admin) user.
+   - Separate from `/home` to prevent accidental changes.
+
+6. **`/etc` (Configuration Files)**
+   - Stores system and application configuration files.
+   - Example: `/etc/passwd` (user accounts), `/etc/ssh/sshd_config` (SSH settings).
+
+7. **`/var` (Variable Data)**
+   - Stores frequently changing files like logs, emails, and databases.
+   - Example: `/var/log/syslog` (system logs), `/var/www` (web server files).
+
+8. **`/tmp` (Temporary Files)**
+   - Used for temporary files that get deleted on reboot.
+   - Example: Apps store temporary data here.
+
+9. **`/usr` (User Programs)**
+   - Stores installed applications and libraries for users.
+   - `/usr/bin` (non-essential binaries), `/usr/lib` (libraries), `/usr/share` (documentation).
+
+10. **`/opt` (Optional Software)**
+   - Third-party software like custom applications are installed here.
+
+11. **`/dev` (Device Files)**
+   - Represents hardware devices as files.
+   - Example: `/dev/sda` (hard disk), `/dev/tty` (terminal).
+
+12. **`/proc` (Process Information)**
+   - Contains system and process information in real-time.
+   - Example: `/proc/cpuinfo` (CPU details), `/proc/meminfo` (memory info).
+
+13. **`/sys` (System Information)**
+   - Similar to `/proc` but used for kernel-related files.
+   - Example: `/sys/class/net/` (network interfaces).
+
+14. **`/boot` (Boot Files)**
+   - Stores files needed for booting the system, including the Linux kernel (`vmlinuz`).
+   - Example: `/boot/grub` (bootloader files).
+
+15. **`/lib` & `/lib64` (Libraries)**
+   - Contains essential system libraries required for basic commands.
+   - Example: `/lib/libc.so.6` (C standard library).
+
+16. **`/mnt` & `/media` (Mount Points)**
+   - `/mnt`: Temporary mount points for external devices.
+   - `/media`: Automatically mounted removable drives like USB, CD-ROM.
 ---
 
 ## **6. Linux Distributions (Distros)**
